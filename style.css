@@ -4,19 +4,25 @@
   box-sizing: border-box;
 }
 
+section{
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 div {
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid blue;
 }
 
-img{
-   width: 200px;
-}
-p{
-  
-}
-
-.image {
+img {
   width: 100px;
   height: 100px;
 }
-
